@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 56px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+}
+
+nav {
+  text-transform: uppercase;
+  z-index: 1;
+  background-color: #e3eeff;
+}
+nav .nav-link {
+  transition: color 0.5s;
+}
+nav .nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+header h1 {
+  font-size: 0;
+}
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  width: 230px;
+  height: 230px;
+}
+header .logo-big {
+  display: none;
+}
+
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: #009ee3;
+}
+
+.aboutus h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.aboutme {
+  height: 780px;
+  font-size: 14px;
+}
+.aboutme img {
+  display: block;
+  margin-right: 30px;
+  height: 250px;
+}
+
+.offer {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.offer .card {
+  transition: transform 0.3s;
+}
+.offer .card:hover {
+  transform: scale(0.96);
+}
+.offer .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.offer .btn {
+  display: flex;
+  background-color: #009ee3;
+  margin: 0 auto;
+  border: #009ee3;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 159, 227, 0.318);
+  transition: transform 0.3s;
+}
+.offer .btn:hover {
+  transform: scale(1.1);
+}
+.offer a {
+  padding: 6px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.prices {
+  height: 70vh;
+}
+@media (min-width: 768px) {
+  .prices {
+    height: 150vh;
+  }
+}
+@media (min-width: 768px) {
+  .prices .prices-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.prices .prices-box .price-link {
+  display: block;
+  padding: 10px 12px 20px 12px;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: transform 0.3s;
+}
+.prices .prices-box .price-link:hover {
+  transform: scale(1.1);
+}
+@media (min-width: 768px) {
+  .prices .prices-box .price-link {
+    display: none;
+  }
+}
+.prices .prices-box .price-file {
+  display: none;
+  margin-bottom: 50px;
+  height: 500px;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .prices .prices-box .price-file {
+    display: block;
+  }
+}
+
+.massage button {
+  text-transform: uppercase;
+}
+
+.contact {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.contact h3 {
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: font-size 0.5s;
+}
+.contact a:hover {
+  font-size: 18px;
+}
+
+footer i {
+  color: white;
+  margin: 5px;
+  transition: color 0.3s;
+}
+footer i:hover {
+  color: rgb(0, 158, 227);
+}
+footer .policy-link {
+  text-decoration: none;
+  color: rgb(209, 205, 205);
+  font-size: 12px;
+  transition: font-size 0.3s;
+}
+footer .policy-link:hover {
+  font-size: 13px;
+}
+
+@media (min-width: 375px) {
+  .aboutme {
+    height: 820px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) {
+  .aboutme {
+    height: 650px;
+  }
+}
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+  header .logo-big {
+    display: flex;
+  }
+  header .logo-small {
+    display: none;
+  }
+  .aboutme {
+    height: 500px;
+  }
+}
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header .container {
+    justify-content: space-between;
+  }
+  .aboutme {
+    height: 400px;
+  }
+  .carousel-item {
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-item {
+    height: 450px;
+  }
+}/*# sourceMappingURL=style.css.map */
