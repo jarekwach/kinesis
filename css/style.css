@@ -107,6 +107,14 @@ header .logo-big {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 1200px) {
+  .prices .prices-box {
+    align-items: center;
+  }
+  .prices .prices-box .price-img {
+    width: 936px;
+  }
+}
 
 .massage button {
   text-transform: uppercase;

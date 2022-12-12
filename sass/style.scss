@@ -147,6 +147,14 @@ header {
 	.prices-box {
 		display: flex;
 		flex-direction: column;
+
+		@media (min-width: 1200px) {
+			align-items: center;
+
+			.price-img {
+				width: 936px;
+			}
+		}
 	}
 }
 
