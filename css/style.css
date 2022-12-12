@@ -103,48 +103,9 @@ header .logo-big {
   color: rgb(255, 255, 255);
 }
 
-.prices {
-  height: 70vh;
-}
-@media (min-width: 768px) {
-  .prices {
-    height: 150vh;
-  }
-}
-@media (min-width: 768px) {
-  .prices .prices-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.prices .prices-box .price-link {
-  display: block;
-  padding: 10px 12px 20px 12px;
-  text-align: center;
-  font-size: 18px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  transition: transform 0.3s;
-}
-.prices .prices-box .price-link:hover {
-  transform: scale(1.1);
-}
-@media (min-width: 768px) {
-  .prices .prices-box .price-link {
-    display: none;
-  }
-}
-.prices .prices-box .price-file {
-  display: none;
-  margin-bottom: 50px;
-  height: 500px;
-  width: 80%;
-}
-@media (min-width: 768px) {
-  .prices .prices-box .price-file {
-    display: block;
-  }
+.prices .prices-box {
+  display: flex;
+  flex-direction: column;
 }
 
 .massage button {
