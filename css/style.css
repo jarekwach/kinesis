@@ -136,6 +136,10 @@ header .logo-big {
 .contact a:hover {
   font-size: 18px;
 }
+.contact .info-visits {
+  margin: 10px 0;
+  font-weight: bold;
+}
 
 footer i {
   color: white;
