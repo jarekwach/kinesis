@@ -115,6 +115,15 @@ header .logo-big {
     width: 936px;
   }
 }
+.prices .prices-box .accordion-body {
+  display: flex;
+  flex-direction: column;
+}
+.prices .prices-box .accordion-body .accordion-img {
+  align-items: center;
+  width: 100%;
+  max-width: 936px;
+}
 
 .massage button {
   text-transform: uppercase;

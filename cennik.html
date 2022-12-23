@@ -57,20 +57,43 @@
 
                 <div class="prices-box">
 
-                    <img class="price-img" src="./img/cennik/cennik fizjoterapia-logo.jpg" alt="cennik usług fizjoterapii">
-                    <img class="price-img" src="./img/cennik/cennik fizykoterapia-logo.jpg" alt="cennik usług fizykoterapii">
+                    <img class="price-img" src="./img/cennik/cennik fizjoterapia-logo.jpg"
+                        alt="cennik usług fizjoterapii">
+                    <img class="price-img" src="./img/cennik/cennik fizykoterapia-logo.jpg"
+                        alt="cennik usług fizykoterapii">
                     <img class="price-img" src="./img/cennik/cennik masaz-logo.jpg" alt="cennik usług masażu">
 
-                    <img class="price-img" src="./img/cennik/dokumentacja oplaty.jpg"
+                    <!-- <img class="price-img" src="./img/cennik/dokumentacja oplaty.jpg"
                         alt="opłaty za udostępnianie dokumentacji medycznej">
                     <img class="price-img" src="./img/cennik/dokumentacja informacje.jpg"
-                        alt="informacje dotyczące prowadzenia dokumentacji medycznej">
+                        alt="informacje dotyczące prowadzenia dokumentacji medycznej"> -->
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Opłaty za udostępnianie dokumentacji medycznej
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <img class="accordion-img" src="./img/cennik/dokumentacja oplaty.jpg"
+                                        alt="opłaty za udostępnianie dokumentacji medycznej">
+                                    <img class="accordion-img" src="./img/cennik/dokumentacja informacje.jpg"
+                                        alt="informacje dotyczące prowadzenia dokumentacji medycznej">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
         </section>
 
     </main>
-
 
 
     <footer class="bg-dark text-light py-4 text-center">
