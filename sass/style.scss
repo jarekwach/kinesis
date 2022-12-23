@@ -68,9 +68,6 @@ header {
 	background-color: rgb(0, 158, 227);
 }
 
-// .carousel-item {
-// 	height: 350px;
-// }
 
 // strona główna
 .aboutus {
@@ -80,7 +77,6 @@ header {
 	}
 }
 
-// o mnie
 .aboutme {
 	height: 780px;
 
@@ -93,7 +89,7 @@ header {
 	}
 }
 
-// offer
+
 .offer {
 	// height: 800px;
 
@@ -156,6 +152,10 @@ header {
 			}
 		}
 
+		.accordion-button {
+			margin-right: 10px;
+		}
+
 		.accordion-body {
 			display: flex;
 			flex-direction: column;
@@ -186,7 +186,6 @@ header {
 
 // }
 
-//kontakt
 .contact {
 	background-image: linear-gradient(
 		to top,
@@ -217,7 +216,6 @@ header {
 	}
 }
 
-//footer
 footer {
 	i {
 		color: white;
@@ -242,16 +240,11 @@ footer {
 	}
 }
 
-//media
-
 @media (min-width: 375px) {
 	.aboutme {
 		height: 820px;
 		font-size: 16px;
 	}
-	// .prices {
-	// 	height: 100vh;
-	// }
 }
 
 @media (min-width: 576px) {

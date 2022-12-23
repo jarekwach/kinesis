@@ -115,6 +115,9 @@ header .logo-big {
     width: 936px;
   }
 }
+.prices .prices-box .accordion-button {
+  margin-right: 10px;
+}
 .prices .prices-box .accordion-body {
   display: flex;
   flex-direction: column;
