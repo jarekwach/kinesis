@@ -16,38 +16,38 @@ body {
   text-align: center;
 }
 
-nav {
+.nav {
   text-transform: uppercase;
   z-index: 1;
   background-color: rgb(227, 238, 255);
 }
-nav .nav-link {
+.nav .nav-link {
   transition: color 0.5s;
 }
-nav .nav-link:hover {
+.nav .nav-link:hover {
   color: rgb(0, 0, 0);
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   height: 200px;
   width: 100%;
   background-image: linear-gradient(to top, rgb(243, 231, 233) 0%, rgb(227, 238, 255) 99%, rgb(227, 238, 255) 100%);
 }
-header h1 {
+.header .header__title {
   font-size: 0;
 }
-header .container {
+.header .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header img {
+.header .header__logo {
   width: 230px;
   height: 230px;
 }
-header .logo-big {
+.header .logo-big {
   display: none;
 }
 
@@ -188,13 +188,13 @@ footer .policy-link:hover {
   }
 }
 @media (min-width: 768px) {
-  header h1 {
+  .header .header__title {
     font-size: 24px;
   }
-  header .logo-big {
+  .header .logo-big {
     display: flex;
   }
-  header .logo-small {
+  .header .logo-small {
     display: none;
   }
   .aboutme {
@@ -202,10 +202,10 @@ footer .policy-link:hover {
   }
 }
 @media (min-width: 992px) {
-  header h1 {
+  .header .header__title {
     font-size: 36px;
   }
-  header .container {
+  .header .container {
     justify-content: space-between;
   }
   .aboutme {
