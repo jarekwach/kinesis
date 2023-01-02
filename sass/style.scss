@@ -68,7 +68,6 @@ header {
 	background-color: rgb(0, 158, 227);
 }
 
-
 // strona główna
 .aboutus {
 	h3 {
@@ -88,7 +87,6 @@ header {
 		height: 250px;
 	}
 }
-
 
 .offer {
 	// height: 800px;
@@ -170,9 +168,11 @@ header {
 }
 
 // fizjoterapia
-// .physiotherapy{
-
-// }
+.physiotherapy {
+	button {
+		text-transform: uppercase;
+	}
+}
 
 // masaże
 .massage {

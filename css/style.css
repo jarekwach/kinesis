@@ -128,6 +128,10 @@ header .logo-big {
   max-width: 936px;
 }
 
+.physiotherapy button {
+  text-transform: uppercase;
+}
+
 .massage button {
   text-transform: uppercase;
 }
